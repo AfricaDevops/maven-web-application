@@ -13,7 +13,7 @@
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	           We are raising millionaires and billionaires IT professionals in over 50 nations.
 	We offer Training for DevOps with Linux, Kubernetes and Cloud, equipping IT Engineers for best performance.
-	Class34 DevOps MasterClass will start on Oct 14, 2023. </h1>
+	Class34 DevOps MasterClass will start on Oct 14, 2023 with Engr. Ermyas. </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
