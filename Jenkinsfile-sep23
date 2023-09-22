@@ -1,5 +1,5 @@
 node{
-    def mavenHome = tool name: 'maven3.9.4'
+    def mavenHome = tool name: 'maven 3.94'
     stage('1.CloneCode'){
         //Jenkins running on a Linux system  
         //sh "git clone https://github.com/LandmakTechnology/maven-web-application"
