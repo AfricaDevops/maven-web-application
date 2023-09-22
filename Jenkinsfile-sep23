@@ -3,7 +3,7 @@ node{
     stage('1.CloneCode'){
         //Jenkins running on a Linux system  
         //sh "git clone https://github.com/LandmakTechnology/maven-web-application"
-        git "https://github.com/LandmakTechnology/maven-web-application"
+        git "https://github.com/AfricaDevops/maven-web-application"
         //Jenkins running on a windows system
         //bat "git clone https://github.com/LandmakTechnology/maven-web-application"  
     }
