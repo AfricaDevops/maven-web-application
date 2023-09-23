@@ -22,7 +22,7 @@ node{
     }
     stage('5.Deploy2UAT'){
         //use deploy-to-container plugin via pipeline syntax
-        //deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.82.9.26:8080/')], contextPath: null, war: 'target/*war'
+        //deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.85.186.193:8080/')], contextPath: null, war: 'target/*war'
         //Deploying [/var/lib/jenkins/workspace/tesla-app-pipeline/target/tesla.war]
     }
     stage('6.6ManualApproval'){
@@ -33,7 +33,7 @@ node{
     }
     stage('7.Deploy2Prod'){
       sh "echo 'Deploy application to the customers/production' " 
-     //deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.82.9.26:8080/')], contextPath: null, war: 'target/*war'
+     //deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.85.186.193:8080/')], contextPath: null, war: 'target/*war'
          
     }
     stage('8.APM'){
